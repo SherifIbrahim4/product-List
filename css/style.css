@@ -1,0 +1,96 @@
+body
+{
+    
+    background-image: url("../img/pexels-iriser-1379636.jpg");
+    background-size: cover;
+
+}
+.bgg
+{
+    background-color: rgba(97, 4, 4,0.7);
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 1px #fff;
+}
+.tern
+{
+    border-radius: 10px;
+    border: solid 2px #fff;
+    background-color: rgba(97, 4, 4,0.5);
+    width: 25%;
+    color: black;
+    margin: auto;
+    padding-bottom: 5px;
+    transition: .5s;
+}
+.tern:hover
+{
+    background-color: blue;
+    color: #fff;
+}
+.bro li
+{
+    cursor: pointer;
+    margin-bottom: 5px;
+    border: solid 2px blue;
+    font-weight: bold;
+    color: #fdfbfb;
+    padding: 6px;
+    background-color: rgb(49, 41, 41,0.6);
+    font-size: 1.1rem;
+    padding-left: 20px;
+    border-radius: 5px;
+    transition: .5s;
+}
+.bro li:hover
+{
+    color: blue;
+    background-color: antiquewhite ;
+}
+.imgs
+{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.imgs img
+{
+    width: 200px;
+    border-radius: 30px;
+}
+@media screen and (max-width: 600px) {
+    body
+{
+    
+    background-image: url("../img/pexels-iriser-1379636.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+    .tern
+    {
+        width: 50%;
+    }
+    .bgg{
+        padding: 5px;
+    }
+    .imgs
+        {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: row;
+        }
+        .imgs img
+        {
+            width: 80px;
+            border-radius: 5px;
+        }
+        .data{
+            font-size: 10px;
+        }
+    
+  }
+
